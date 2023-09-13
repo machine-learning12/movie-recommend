@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 
 
+
 def fetch_poster(movie_id):
     response = requests.get(
         'https://api.themoviedb.org/3/movie/{}?api_key=1b287d5b39bbb4f0506e1aac120693f1&language=en-US'.format(
